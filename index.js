@@ -35,11 +35,6 @@
 
   CompassFilter.prototype.processString = function(string, relativePath) {
     var compassArgs;
-    console.log('input string');
-    console.log(string);
-    console.log('--------------- end of input string');
-    console.log('rel', relativePath);
-    console.log('-----------');
     compassArgs = ['compile', '--sass-dir=' + this.options.sassDir, '--css-dir=css'];
     return new Promise(function(resolve, reject) {
       var compile;

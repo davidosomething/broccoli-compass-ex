@@ -23,9 +23,6 @@ CompassFilter = (inputTree, options)->
   @options ||= {
     'sassDir': @inputTree.srcDir
   }
-  console.log('input tree ----------')
-  console.log(inputTree)
-  console.log('----------')
   return @
 
 CompassFilter.prototype = Object.create(Filter.prototype)
