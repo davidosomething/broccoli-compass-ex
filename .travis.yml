@@ -9,10 +9,10 @@ before_install:
   - gem update --system
   - bundle install
 
-deploy:
-  provider: npm
-  email: me@davidosomething.com
-  api_key:
-    secure: AOeub1O7MEHmH3egz27rMulq3q7AI3HaOyXp+4e2Jvqpoy8jNX6/7aFM5tmLVE3IclvtGHSv9bB1+FdwzjfDgSMSJZxze5ps3cKafTCeOS5AoUeUDhhCNsaudNWLpky1EDXjIYABuOguHPvasBykiylzqoA+5M2XLZ78HBGOfEE=
-  on:
-    repo: davidosomething/broccoli-compass-ex
+# deploy:
+#   provider: npm
+#   email: me@davidosomething.com
+#   api_key:
+#     secure: AOeub1O7MEHmH3egz27rMulq3q7AI3HaOyXp+4e2Jvqpoy8jNX6/7aFM5tmLVE3IclvtGHSv9bB1+FdwzjfDgSMSJZxze5ps3cKafTCeOS5AoUeUDhhCNsaudNWLpky1EDXjIYABuOguHPvasBykiylzqoA+5M2XLZ78HBGOfEE=
+#   on:
+#     repo: davidosomething/broccoli-compass-ex

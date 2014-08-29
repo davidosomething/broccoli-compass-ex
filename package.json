@@ -12,7 +12,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt && cd test && broccoli build output && ls output"
+    "test": "grunt && cd test && broccoli build output && ls output/test1"
   },
   "dependencies": {
     "broccoli-filter": "^0.1.6",

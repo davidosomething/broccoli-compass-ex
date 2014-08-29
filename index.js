@@ -19,9 +19,6 @@
     this.options || (this.options = {
       'sassDir': this.inputTree.srcDir
     });
-    console.log('input tree ----------');
-    console.log(inputTree);
-    console.log('----------');
     return this;
   };
 
