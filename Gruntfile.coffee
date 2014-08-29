@@ -3,7 +3,6 @@ module.exports = ->
   @loadNpmTasks 'grunt-coffeelint'
   @loadNpmTasks 'grunt-contrib-clean'
   @loadNpmTasks 'grunt-contrib-coffee'
-  @loadNpmTasks 'grunt-contrib-nodeunit'
 
   @config 'clean',
     output: [ 'test/output' ]
